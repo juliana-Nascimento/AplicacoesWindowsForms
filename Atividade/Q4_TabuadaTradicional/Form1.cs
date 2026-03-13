@@ -18,14 +18,11 @@ namespace Q4_TabuadaTradicional
             //Processamento
             for (int i = 0; i <= 10; i++)
             {
-                resultado = u * i;
+               resultado = u * i;
 
                 //Saida
-                lstTabuada.Items.Add(u + " x " + i + " = + " resultado);
-            }
-
-            
-
+                lstTabuada.Items.Add(u + " x " + i + " =  " + resultado);
+            }                   
         }
     }
 }

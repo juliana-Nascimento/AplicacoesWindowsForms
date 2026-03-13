@@ -18,7 +18,7 @@ namespace Q1_ConversorCF
             F = (C * 9 / 5) + 32;
 
             //Saída
-            lbResultado.Text = F.ToString();
+            lbResultado.Text = "Fahrenheit (F°): " + F.ToString();
         }
     }
 }

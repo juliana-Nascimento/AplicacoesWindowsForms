@@ -20,7 +20,7 @@ namespace Q3_PassagemPorDistancia
             if (km <= 200)
             {
                 resultado = km * 0.50;
-                lblResultado.Text = resultado.ToString();
+                txtResultado.Text = resultado.ToString();
             }
             else
             {
